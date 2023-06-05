@@ -1,6 +1,6 @@
 const jwt = require("jsonwebtoken");
 
-const SECRET = "cookr-recipe-web-application" || process.env.JWT_SECRET;
+const SECRET = "ashanti-web-application" || process.env.JWT_SECRET;
 
 const verifyToken = (req, res, next) => {
   const authHeader = req.headers.token;
