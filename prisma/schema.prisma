@@ -15,5 +15,5 @@ model user {
   phone    String? @db.Text
   age      Int?
   location String? @db.Text
-  image    String? @db.Text
+  image    Bytes?  @db.LongBlob
 }
